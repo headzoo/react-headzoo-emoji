@@ -1,7 +1,9 @@
 React Emoji Component
 =====================
 React component wrapper for the [twemoji](https://github.com/twitter/twemoji) library
-which converts unicode codepoints into emoji images.
+which converts unicode emoji codepoints into emoji images.
+
+A demo is available at http://headzoo.io/react-headzoo-emoji.
 
 [![Build Status](https://img.shields.io/travis/headzoo/react-headzoo-emoji/master.svg?style=flat-square)](https://travis-ci.org/headzoo/react-headzoo-emoji)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/headzoo/surf/master/LICENSE.md)
@@ -18,6 +20,7 @@ the emoji are converted into images which are hosted from
 [maxcdn.com](https://www.maxcdn.com/).
 
 ```jsx
+var React = require('react');
 var Emoji = require('react-headzoo-emoji');
 
 var Component = React.createClass({
