@@ -1,6 +1,6 @@
 {
   "name": "react-headzoo-emoji",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "index.js",
   "description": "React component wrapper for the twemoji library which converts unicode codepoints into emoji images.",
   "author": {
