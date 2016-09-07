@@ -1,0 +1,38 @@
+{
+  "name": "react-headzoo-emoji-demo",
+  "version": "1.0.0",
+  "description": "Demo for react-headzoo-emoji",
+  "main": "index.js",
+  "dependencies": {
+    "highlight.js": "^9.6.0",
+    "json5": "^0.5.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-headzoo-emoji": "^0.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "react-hot-loader": "^1.3.0",
+    "rimraf": "^2.5.4",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  },
+  "scripts": {
+    "build": "npm run clean && webpack",
+    "clean": "rimraf ./assets/demo.js",
+    "test": "jest",
+    "start": "webpack-dev-server --hot --inline --port 3003"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/headzoo/react-headzoo-emoji.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Sean Hickey",
+  "license": "MIT"
+}
