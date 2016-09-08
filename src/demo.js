@@ -171,7 +171,11 @@ var YourComponent = React.createClass({
                 </div>
                 
                 <footer className="footer">
-                    <p><a href="https://github.com/headzoo/react-headzoo-emoji/tree/gh-pages">Demo site source code</a></p>
+                    <p>
+                        <small>
+                            <a href="https://github.com/headzoo/react-headzoo-emoji/tree/gh-pages">Demo site source code</a>
+                        </small>
+                    </p>
                     <p>&copy; Sean Hickey 2016</p>
                 </footer>
             </div>
