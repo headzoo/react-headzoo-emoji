@@ -6,7 +6,7 @@ body {
 .container {
     padding-top: 1rem;
     margin-bottom: 1rem;
-    max-width: 46rem;
+    max-width: 56rem;
     background-color: #FFF;
     border-radius: .3rem;
     -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
@@ -120,7 +120,7 @@ div.form-text {
 }
 
 .divider {
-    border-top: 1px solid rgba(0,0,0,.15);;
+    border-top: 1px solid rgba(0,0,0,.25);
     margin: 2rem 0;
 }
 

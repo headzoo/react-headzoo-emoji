@@ -21,7 +21,7 @@
     "webpack-dev-server": "^1.15.1"
   },
   "scripts": {
-    "build": "npm run clean && webpack",
+    "build": "npm run clean && webpack --progress -p",
     "clean": "rimraf ./assets/demo.js",
     "test": "jest",
     "start": "webpack-dev-server --hot --inline --port 3003"

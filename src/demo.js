@@ -140,6 +140,15 @@ var YourComponent = React.createClass({
                         The component has three callback properties. As you change the demo properties, the logs
                         will update to reflect the arguments passed to each callback.
                     </p>
+    
+                    <section>
+                        <h6>onParse</h6>
+                        <p className="form-text text-muted">
+                            The onParse event is fired for each unicode emoji found. The callback receives an object
+                            detailing the emoji. Provides a chance to alter the emoji details before rendering.
+                        </p>
+                        <pre ref="log_parse" className="hljs logs"></pre>
+                    </section>
                     
                     <section>
                         <h6>onComplete</h6>
@@ -152,18 +161,10 @@ var YourComponent = React.createClass({
                     </section>
     
                     <section>
-                        <h6>onParse</h6>
-                        <p className="form-text text-muted">
-                            The onParse event is fired for each unicode emoji found. The callback receives an object
-                            detailing the emoji. Provides a chance to alter the emoji details before rendering.
-                        </p>
-                        <pre ref="log_parse" className="hljs logs"></pre>
-                    </section>
-    
-                    <section>
                         <h6>onError</h6>
                         <p className="form-text text-muted">
-                            The onError event is fired for each emoji image that fails to load.
+                            The onError event is fired for each emoji image that fails to load. Try changing the
+                            <code>base</code> property to a non-existent domain, and watch the errors pile up!
                         </p>
                         <pre ref="log_error" className="hljs logs"></pre>
                     </section>
