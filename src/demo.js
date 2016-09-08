@@ -63,38 +63,39 @@ var YourComponent = React.createClass({
                     <section>
                         <h2>About</h2>
                         <p>
-                            Provides an <code>&lt;Emoji&gt;</code> component which scans it's children
+                            Provides a configurable <code>&lt;Emoji&gt;</code> component which scans its children
                             for <a href="http://unicode.org/emoji/charts/full-emoji-list.html">unicode emoji
-                            codepoints</a> (the type used in tweets, gmail, etc) and converts them into images. By default
-                            the images link to Twitter's emoji which are hosted
+                            codepoints</a> (the type used in tweets, gmail, etc) and converts them into images hosted
                             on <a href="https://twemoji.maxcdn.com">twemoji.maxcdn.com</a>.
                         </p>
                     </section>
+                    
                     <section>
                         <h2>Usage</h2>
                         <p>
-                            First install the component using <code>npm install react-headzoo-emoji</code> and
-                            then import the library into your React code. Wrap content you want parsed
-                            in the <code>&lt;Emoji&gt;</code> tag.
+                            Import the component and wrap any content you want parsed.
                         </p>
+                        
                         <div className="form-text text-muted">
                             The component searches its children for emoji unicode codepoints.
                         </div>
-                        <pre className="tall"><code>
-                            {usage}
-                        </code></pre>
-    
+                        <pre className="tall">
+                            <code>
+                                {usage}
+                            </code>
+                        </pre>
+                        
                         <div className="form-text text-muted">
                             And converts them into images.
                         </div>
-                        <pre><code>
-                            {output}
-                        </code></pre>
+                        <pre>
+                            <code>
+                                {output}
+                            </code>
+                        </pre>
                     </section>
-                    <div className="divider"></div>
                     
                     <PropsForm onChange={this._onPropsChange} />
-                    <div className="divider"></div>
                     
                     <section>
                         <h2>Preview</h2>
@@ -133,7 +134,6 @@ var YourComponent = React.createClass({
                             </div>
                         </div>
                     </section>
-                    <div className="divider"></div>
                     
                     <h2>Event Callbacks</h2>
                     <p>
@@ -171,6 +171,7 @@ var YourComponent = React.createClass({
                 </div>
                 
                 <footer className="footer">
+                    <p><a href="https://github.com/headzoo/react-headzoo-emoji/tree/gh-pages">Demo site source code</a></p>
                     <p>&copy; Sean Hickey 2016</p>
                 </footer>
             </div>

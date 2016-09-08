@@ -24,7 +24,7 @@
     "build": "npm run clean && webpack --progress -p",
     "clean": "rimraf ./assets/demo.js",
     "test": "jest",
-    "start": "webpack-dev-server --hot --inline --port 3003"
+    "serve": "webpack-dev-server --config webpack.serve.js --hot --inline --port 3003"
   },
   "repository": {
     "type": "git",

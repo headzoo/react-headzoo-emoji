@@ -1,6 +1,7 @@
 body {
     padding-top: 1.5rem;
-    background-color: #bdbdbd;
+    background-color: #9E9E9E;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -8,10 +9,11 @@ body {
     margin-bottom: 1rem;
     max-width: 56rem;
     background-color: #FFF;
+    color: #545b61;
     border-radius: .3rem;
-    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
-    -moz-box-shadow:    0 0 5px 0 rgba(0, 0, 0, 0.75);
-    box-shadow:         0 0 5px 0 rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    0 2px 5px 0 rgba(0, 0, 0, 0.75);
+    box-shadow:         0 2px 5px 0 rgba(0, 0, 0, 0.75);
 }
 
 .jumbotron {
@@ -27,6 +29,14 @@ body {
     margin-left: 0.5rem;
 }
 
+.code-npm-install {
+    display: block;
+    margin: 1rem auto;
+    width: 50%;
+    color: #fbfbfb;
+    background-color: #333333;
+}
+
 .footer {
     width: 100%;
     padding: 1rem;
@@ -39,13 +49,58 @@ body {
     padding:0;
 }
 
+.demo-form {
+    padding: 1rem 0.6rem;
+    background-color: #333333;
+    color: #FFF;
+    border-radius: .3rem;
+}
+
+.demo-form .text-muted {
+    color: #79b179 !important;
+}
+
+.text-muted {
+    color: #737b82 !important
+}
+
 section {
     margin-bottom: 2rem;
+}
+
+h1 {
+    color: #000;
+}
+
+h2 {
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    padding-bottom: 0.5rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+p.form-text {
+    margin-bottom: 0.2rem;
+    margin-top: 0;
+}
+
+label {
+    margin-bottom: 0;
 }
 
 .page-title {
     font-size: 2.5rem;
     font-weight: 300;
+}
+
+.btn-primary {
+    background-color: #57a1ca;
+    border-color: #57a1ca;
+}
+
+.btn-primary:hover {
+    background-color: #5392bb;
+    border-color: #5392bb;
 }
 
 .btn-project {
@@ -63,22 +118,6 @@ section {
     vertical-align: middle;
 }
 
-.code-npm-install {
-    display: block;
-    margin: 1rem auto;
-    width: 80%;
-    color: #fbfbfb;
-    background-color: #5a5a5a;
-}
-
-.form-group {
-    margin-bottom: 0.25rem;
-}
-
-.form-group label {
-    color: #777777;
-}
-
 pre,
 textarea {
     height: 6rem;
@@ -89,8 +128,14 @@ pre.tall,
     height: 18rem;
 }
 
+pre,
+.parsed-output {
+    border-radius: .3rem;
+}
+
 pre code {
     height: 100%;
+    border-radius: .3rem;
 }
 
 .form-group.col-xs-12,
@@ -112,17 +157,13 @@ pre code {
 }
 
 .form-text {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 div.form-text {
     margin-bottom: 0.2rem;
 }
 
-.divider {
-    border-top: 1px solid rgba(0,0,0,.25);
-    margin: 2rem 0;
-}
 
 .logs {
     padding: 0.5rem 0;
@@ -133,6 +174,6 @@ div.form-text {
 }
 
 .logs div:nth-child(even) {
-    background-color: #565656;
+    background-color: #4e4e4e;
 }
 

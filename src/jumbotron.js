@@ -7,7 +7,7 @@ var Jumbotron = React.createClass({
         return (
             <div className="jumbotron">
                 <h1 className="page-title">Emoji React Component</h1>
-                <code className="code-npm-install">npm install react-headzoo-emoji</code>
+                <code className="code-npm-install">npm i --save react-headzoo-emoji</code>
                 <p className="lead">
                     React component wrapper for the <a href="https://github.com/twitter/twemoji">twemoji</a> library
                     which converts unicode emoji into Twitter image emoji.
