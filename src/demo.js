@@ -186,7 +186,7 @@ var YourComponent = React.createClass({
         this.setState({prop_options: new_props});
         setTimeout(function() {
             this.setState({html: this.refs.emoji.innerHTML});
-        }.bind(this), 500);
+        }.bind(this), 250);
     },
     
     _onComplete: function(images) {
@@ -231,7 +231,8 @@ var YourComponent = React.createClass({
     },
     
     _createCodeHTML: function() {
-        var html = formatter.formatHTML(this.state.html).replace(/draggable="false" /g, '');
+        var html = formatter.formatHTML(this.state.html)
+            .replace(/draggable="false" /g, '');
         
         return {
             __html: hljs.highlight('html', html, true).value
