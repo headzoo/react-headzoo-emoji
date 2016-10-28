@@ -3,7 +3,7 @@ React Emoji Component
 React component wrapper for the [twemoji](https://github.com/twitter/twemoji) library
 which converts unicode emoji codepoints into emoji images.
 
-A demo is available at http://headzoo.io/react-headzoo-emoji.
+A demo is available at http://demos.headzoo.io/.
 
 [![Build Status](https://img.shields.io/travis/headzoo/react-headzoo-emoji/master.svg?style=flat-square)](https://travis-ci.org/headzoo/react-headzoo-emoji)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/headzoo/surf/master/LICENSE.md)
